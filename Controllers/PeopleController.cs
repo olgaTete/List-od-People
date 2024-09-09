@@ -5,7 +5,7 @@ using ListOfPeople.Models.View;
 using ListOfPeople.Models.Repo;
 using System;
 
-namespace ListDate2.Controllers
+namespace ListOfPeople.Controllers
 {
     public class PeopleController : Controller
     {

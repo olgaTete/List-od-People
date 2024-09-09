@@ -1,0 +1,12 @@
+﻿@model ListOfPeople.Models.Entities.Person
+
+<div class="person-card">
+    <div class="person-info">
+        <p>ID: @Model.Id</p>
+        <h5>Name: @Model.Name</h5>
+        <p>City: @Model.City</p>
+        <a asp-action="Details" asp-route-id="@Model.Id">Details</a>
+        <p>_______________________</p>
+    </div>
+</div>
+
